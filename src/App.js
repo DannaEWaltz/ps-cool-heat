@@ -1,22 +1,20 @@
+import React from 'react';
+import Form from './Form';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="PS Cool Heat">
+      <header className="HVAC Services">
+        <img src={logo} className="PSCH" alt="PSCH" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Our website is under construction!
+
+          Until our new design is ready to reveal, please fill out the form below so we can contact you!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h1>PS Cool Heat</h1>
+      <Form />
       </header>
     </div>
   );
