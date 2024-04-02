@@ -25,19 +25,19 @@ export function ContactUs() {
   }
 
   return (
-    <div className="formContainer"> 
-      <form className="form" onSubmit={handleSubmit}>
-        <label className="form-label">First & Last Name</label>
+    <div className= "grid grid-cols-6 gap-4"> 
+      <form className="" onSubmit={handleSubmit}>
+        <label className= "mx-2.5 my-2.5">First & Last Name</label>
         <input className="form-input" type="text" value={name} onChange={e => setName(e.target.value)} />
   
-        <label className="form-label">Phone Number</label>
+        <label className="mx-2.5 my-2.5">Phone Number</label>
         <input className="form-input" type="text" value={number} onChange={e => setNumber(e.target.value)} />
         <p className="form-disc">By providing your phone number, you consent to receive text message based communication</p>
-        <label className="form-label">Email</label>
+        <label className="mx-2.5 my-2.5">Email</label>
         <input className="form-input" type="email" value={email} onChange={e => setEmail(e.target.value)} />
 
-        <label className="form-label">Comments</label>
-        <textarea className="form-input" value={comments} onChange={e => setComments(e.target.value)} />
+        <label className="mx-2.5 my-2.5">Comments</label>
+        <textarea className="justify-items-center shadow-2xl" value={comments} onChange={e => setComments(e.target.value)} />
 
         <input className="form-submit" type="submit" value="Submit" />
        </form>
