@@ -14,18 +14,3 @@
   font-family: italic;
   font-size: small;
 }
-
-h1 {
-  font-weight: 60px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: large;
-  color: rgb(248, 226, 186);
-}
-
-h2 {
-  font-weight: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: large;
-  color: orange;
-  justify-self: center;
-}
