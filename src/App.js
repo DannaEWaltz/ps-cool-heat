@@ -3,7 +3,7 @@ import Form from './Form';
 
 function App() {
   return (
-    <div className="bg-psch">
+    <div className="background">
       <header className="header">
         <h1>PS Cool Heat ~    ~    ~    ~    ~  HVAC Services</h1>
         <p className="construct">
