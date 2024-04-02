@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ps-cool-heat/static/css/main.7550fd02.css",
+    "main.js": "/ps-cool-heat/static/js/main.2931771b.js",
+    "index.html": "/ps-cool-heat/index.html",
+    "main.7550fd02.css.map": "/ps-cool-heat/static/css/main.7550fd02.css.map",
+    "main.2931771b.js.map": "/ps-cool-heat/static/js/main.2931771b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7550fd02.css",
+    "static/js/main.2931771b.js"
+  ]
+}
