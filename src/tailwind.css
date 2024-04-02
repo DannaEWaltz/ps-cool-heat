@@ -169,15 +169,12 @@ h1 {
 .form-submit {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: large;
-  margin: 20px 20px 20px 20px;
   padding: 15px;
-  width: 70%;
-  height: 35%;
   justify-self: center;
-  border: 5px solid grey;
-  outline-color: #333;
-  outline-style: solid;
-  outline-width: thin;
+  border: 2px solid grey;
+  border-radius: .5rem;
+  border-style: double;
+  margin: auto;
 }
 
 .formContainer {
@@ -192,7 +189,13 @@ h1 {
   padding: 15px 15px 15px 15px;
   box-sizing: border-box;
   border-radius: 4%;
+}
 
+.form-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .form-label {
@@ -207,18 +210,18 @@ h1 {
   margin: 20px;
 }
 
-.form-disc{
+.form-input::placeholder{
   font-family: italic;
-  font-size: small;
+  font-size: xx-small;
 }
 
 .form-input {
-  border-radius: 4%;
+  outline: 3px darkgrey;
+  border-radius: auto;
   border-style: solid;
   font-size: medium;
   border-color: grey;
   box-shadow: 15px 20px 16px grey;
-  border: 7px;
   padding: 4px;
   margin: 20px;
 }

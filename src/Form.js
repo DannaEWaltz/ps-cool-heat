@@ -27,19 +27,23 @@ export function ContactUs() {
   return (
     <div className= "form"> 
       <form className="formContainer" onSubmit={handleSubmit}>
+      <div className="form-field">
         <label className= "form-label">First & Last Name</label>
         <input className="form-input" type="text" value={name} onChange={e => setName(e.target.value)} />
-  
+      </div>
+      <div className="form-field">
         <label className="form-label">Phone Number</label>
-        <input className="form-input" type="text" value={number} onChange={e => setNumber(e.target.value)} />
-        <p className="form-disc">By providing your phone number, you consent to receive text message based communication</p>
-          
+        <input className="form-input" type="text" value={number} onChange={e => setNumber(e.target.value)} placeholder= "By providing your phone number, you consent to receive text message based communication."/>
+        {/* <p className="form-disc">By providing your phone number, you consent to receive text message based communication</p> */}
+      </div>
+      <div className="form-field">   
         <label className="form-label">Email</label>
         <input className="form-input" type="email" value={email} onChange={e => setEmail(e.target.value)} />
-
+      </div>
+      <div className="form-field">
         <label className="form-label">Comments</label>
         <textarea className="form-input" value={comments} onChange={e => setComments(e.target.value)} />
-
+      </div>
         <input className="form-submit" type="submit" value="Submit" />
        </form>
     </div>
