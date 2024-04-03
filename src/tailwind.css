@@ -133,10 +133,10 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-align: center;
-    border: 4px solid rgb(57, 70, 124);
+    border: 4px solid grey;
     border-radius: 20%;
     background-color: transparent;
-    padding: 20px;
+    padding: 10px;
     margin: 15px;
     display: inline-block;
 }
@@ -227,6 +227,7 @@ h1 {
 .form-input::placeholder{
   font-family: italic;
   font-size: xx-small;
+  text-wrap: normal;
 }
 
 .form-input {
