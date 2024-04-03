@@ -122,9 +122,10 @@ textarea::placeholder {
 }
 
 .header {
-  padding: 0px;
-  background-color: transparent;
-  border-radius: 10px solid red;
+  padding: 2px;
+  /* background-color: transparent; */
+  border: 10px solid red;
+  margin: 4px;
   display:contents;
 }
 
@@ -133,12 +134,22 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-align: center;
-    border: 4px solid grey;
+    border: 4px solid rgb(57, 70, 124);
     padding: 4px;
     margin: 8px;
     background-size: cover; 
 }
 
+.logo {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
 .construct {
   background-color: rgb(197, 216, 235);
   background-size: auto;
@@ -199,7 +210,7 @@ h1 {
 }
 
 .form-label {
-  outline: 1px dashed#686A6C;
+  outline: 3px#686A6C;
   border-radius: 4%;
   border-style: solid;
   font-size: large;
@@ -208,6 +219,7 @@ h1 {
   padding: 8px;
   background: rgb(181, 208, 237);
   margin: 20px;
+  box-shadow: #686A6C;
 }
 
 .form-input::placeholder{
