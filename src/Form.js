@@ -51,10 +51,11 @@ export function ContactUs() {
           <label className="form-label">First & Last Name</label>
           <input className="form-input" type="text" value={name} onChange={e => setName(e.target.value)} />
         </div>
-        <div className="form-field">
-          <label className="form-label">Phone Number</label>
-          <input className="form-input" type="text" value={number} onChange={e => setNumber(e.target.value)} placeholder="By providing your phone number, you consent to receive text message based communication." />
-        </div>
+          <div className="form-field">
+            <label className="form-label">Phone Number <p className="disc">By providing your phone number, you consent to receive text message based communication.</p></label>
+           <input className="form-input" type="text" value={number} onChange={e => setNumber(e.target.value)} 
+            />
+           </div>
         <div className="form-field">
           <label className="form-label">Email</label>
           <input className="form-input" type="email" value={email} onChange={e => setEmail(e.target.value)} />

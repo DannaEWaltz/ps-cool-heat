@@ -2,125 +2,6 @@
 ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
 */
 
-html,
-:host {
-  line-height: 1.5;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  /* 3 */
-  tab-size: 4;
-  /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-body {
-  margin: 15;
-  /* 1 */
-  line-height: inherit;
-  /* 2 */
-}
-
-hr {
-  height: 4;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  border-top-width: 4%;
-  /* 3 */
-}
-
-a {
-  color: inherit;
-  text-decoration: inherit;
-}
-
-b,
-strong {
-  font-weight: bolder;
-}
-
-code,
-kbd,
-samp,
-pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  /* 1 */
-  font-feature-settings: normal;
-  /* 2 */
-  font-variation-settings: normal;
-  /* 3 */
-  font-size: 1em;
-  /* 4 */
-}
-
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  /* 1 */
-  font-feature-settings: inherit;
-  /* 1 */
-  font-variation-settings: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  font-weight: inherit;
-  /* 1 */
-  line-height: inherit;
-  /* 1 */
-  letter-spacing: inherit;
-  /* 1 */
-  color: inherit;
-  /* 1 */
-  margin: 8;
-  /* 2 */
-  padding: 8;
-  /* 3 */
-}
-
-:-moz-focusring {
-  outline: auto;
-}
-
-progress {
-  vertical-align: baseline;
-}
-
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
-  height: auto;
-}
-
-::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-}
-
-
-dialog {
-  padding: 20;
-}
-
-textarea {
-  resize: horizontal;
-}
-
-input::placeholder,
-textarea::placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
-}
-
 .header {
   padding: 2px;
   /* background-color: transparent; */
@@ -150,6 +31,7 @@ h1 {
   height: 300px;
   background: transparent;
 }
+
 .construct {
   background-color: rgb(189, 42, 42);
   background-size: auto;
@@ -217,6 +99,7 @@ h1 {
   border-style: solid;
   font-size: large;
   font-style: oblique;
+  text-align: left;
   border-color: rgb(82, 114, 242);
   padding: 8px;
   background: rgb(181, 208, 237);
@@ -224,13 +107,9 @@ h1 {
   box-shadow: #686A6C;
 }
 
-.form-input::placeholder{
-  font-family: italic;
-  font-size: xx-small;
-  text-wrap: normal;
-}
-
 .form-input {
+  width: 200px;
+  position: relative;
   outline: 3px darkgrey;
   border-radius: auto;
   border-style: solid;
@@ -239,4 +118,13 @@ h1 {
   box-shadow: 15px 20px 16px grey;
   padding: 4px;
   margin: 20px;
+}
+
+.disc {
+  width: 180px;
+  justify-self: left;
+  font-family: italic;
+  font-size: xx-small;
+  word-wrap: break-word;
+
 }
