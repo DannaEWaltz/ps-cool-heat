@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ps-cool-heat/static/css/main.d670433c.css",
-    "main.js": "/ps-cool-heat/static/js/main.9877ddd8.js",
+    "main.css": "/ps-cool-heat/static/css/main.9ddbfe62.css",
+    "main.js": "/ps-cool-heat/static/js/main.72d5e8cb.js",
     "static/media/BannerHead.png": "/ps-cool-heat/static/media/BannerHead.315f3227087eac5c54e6.png",
     "index.html": "/ps-cool-heat/index.html",
-    "main.d670433c.css.map": "/ps-cool-heat/static/css/main.d670433c.css.map",
-    "main.9877ddd8.js.map": "/ps-cool-heat/static/js/main.9877ddd8.js.map"
+    "main.9ddbfe62.css.map": "/ps-cool-heat/static/css/main.9ddbfe62.css.map",
+    "main.72d5e8cb.js.map": "/ps-cool-heat/static/js/main.72d5e8cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.d670433c.css",
-    "static/js/main.9877ddd8.js"
+    "static/css/main.9ddbfe62.css",
+    "static/js/main.72d5e8cb.js"
   ]
 }
