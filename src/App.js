@@ -1,9 +1,11 @@
 import React from 'react';
 import Form from './Form';
+import logo from './psch.png';
 
 function App() {
   return (
     <div className="background">
+      <img className="logo" src={logo} alt="PSCH"/>
       <header className="header">
         <h1>~    ~    ~  PS Cool Heat  ~    ~    ~</h1>
         <h2>1745 Shea Center Drive #449, Highlands Ranch, CO 80129</h2>
@@ -13,7 +15,6 @@ function App() {
           Our website is under construction.
           Until our new design is ready, please fill out the form below so we may contact you!
         </p>
-        <img className="logo" src="/psch.png" alt="PSCH"/>
         <Form />
       </header>
     </div>
